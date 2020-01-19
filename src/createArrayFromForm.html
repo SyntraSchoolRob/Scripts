@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Injecting the values of a form in an array</title>
+</head>
+<body class="container mt-5">
+<form>
+    <div class="form-group">
+        <label for="nameID">Name</label>
+        <input type="text" class="form-control" id="nameID" placeholder="name@example.com">
+    </div>
+</form>
+<button onclick="weergaveForm()" class="btn btn-light">Try it out</button>
+<p id="box1" class="mt-5"></p>
+<script>
+    var personen = ['Jerry', 'Lies', 'Tim'];
+    console.log(personen);
+    function weergaveForm() {
+        var naamUser = document.getElementById("nameID").value;
+        document.querySelector('#box1').innerHTML = naamUser;
+        personen.push(naamUser);
+        console.log(personen);
+    }
+</script>
+</body>
+</html>

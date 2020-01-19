@@ -1,0 +1,17 @@
+/**lokale fonts**/
+$fontface-path:'../fonts';
+@font-face {
+  font-family: pfr;
+  src: url('#{$fontface-path}/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+  font-family: ubl;
+  src: url('#{$fontface-path}/Ubuntu-Light.ttf');
+}
+
+/*fontawesome**/
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';

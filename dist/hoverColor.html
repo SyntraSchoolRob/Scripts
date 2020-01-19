@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover effect Javascript</title>
+    <style>
+        #box{
+            height:200px;width:200px;
+            border:10px solid black;
+        }
+    </style>
+<link href="app.css" rel="stylesheet"></head>
+<body>
+<!-- 1. Voeg een hover effect toe op de div, verander van kleur-->
+<!-- 2. Kleur terug wit wanneer muis niet op de div zit-->
+<div id="box" onmouseover="veranderKleur('yellow')" onmouseout="veranderWit('white')">
+
+</div>
+<script>
+    function veranderKleur() {
+        document.querySelector('#box').style.backgroundColor = 'yellow';
+    }
+    function veranderWit() {
+        document.querySelector('#box').style.backgroundColor = 'white';
+    }
+</script>
+<script type="text/javascript" src="app.js"></script></body>
+</html>

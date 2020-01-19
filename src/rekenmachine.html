@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekenmachine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body class="container mt-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded-pill mb-4">
+    <a class="navbar-brand pl-3" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="sitemap.html">Overzicht </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Contract </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="rekenmachine.html">Rekenmachine<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="getallen.html">Getallen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="optellenEnAftrekken.html">Teller</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="row mt-4">
+    <div class="col p-4">
+        <p>Vraag aan de gebruiker 2 getallen en geef de som, vermenigvuldiging, deling en aftrekking weer via een fuctie.</p>
+    </div>
+</div>
+<script>
+var getal1 = parseInt(prompt('Geef uw eerste getal in:'));
+var getal2 = parseInt(prompt('Geef uw tweede getal in: '));
+som = getal1 + getal2;
+aftrekking= getal1-getal2;
+deling= getal1/getal2;
+vermenigvuldiging= getal1*getal2;
+document.write('De som is: ' + som + '<br>');
+document.write('De aftrekking is: ' + aftrekking + '<br>');
+document.write('De deling is: ' + deling + '<br>');
+document.write('De vermenigvulding is: ' + vermenigvuldiging + '<br>');
+</script>
+</body>
+</html>

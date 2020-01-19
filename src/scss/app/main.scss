@@ -1,0 +1,31 @@
+@import './fonts.scss';
+$image-path:'../images';
+//lettertypes
+body{
+  font-family: pfr;
+  font-size: 14px;
+  color:#626262;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #email{
+    width: 40%;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  h2{
+    font-size:14px;
+  }
+  #email{
+    width:25%
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML injection</title>
+</head>
+<!--1. Injecteer een tekst via js in de div tag-->
+<body>
+<div id="divTekst" onclick="veranderTekst()">
+    Deze div zal veranderen van tekst indien u hierop klikt.
+</div>
+<script>
+function veranderTekst() {
+    document.querySelector('#divTekst').innerHTML = "Cool.";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create an object</title>
+<link href="app.css" rel="stylesheet"></head>
+<body class="container mt-5">
+<form>
+    <div class="form-group">
+        <label for="straatID">Address-Street</label>
+        <input type="text" class="form-control" id="straatID" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="stadID">City</label>
+            <input type="text" class="form-control" id="stadID">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="postcodeID">Postcode</label>
+            <input type="text" class="form-control" id="postcodeID">
+        </div>
+    </div>
+    <button onclick="btnMakeObject()" type="submit" class="btn btn-light mt-3">Make an object</button>
+</form>
+<div class="hi"></div>
+<script>
+var persoon= {
+    address: 'Straat',
+    stad: 'Brugge',
+    postcode: '8800'
+};
+function btnMakeObject() {
+    var addressUser = document.getElementById("straatID").value;
+    var cityUser = document.getElementById("stadID");
+    var postcodeUser = document.getElementById("postcodeID");
+    var user= new Object();
+    user.address= addressUser;
+    user.stad= cityUser;
+    user.postcode= postcodeUser;
+    document.write(user);
+    console.log(user);
+}
+</script>
+<script type="text/javascript" src="app.js"></script></body>
+</html>

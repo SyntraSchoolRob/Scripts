@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verander kleur van de tekst via de button</title>
+<link href="app.css" rel="stylesheet"></head>
+<body>
+<!-- 1. Verander kleuren van de p via de button met js-->
+<p id="pDitWordtGroen">Deze tekst wordt groen.</p>
+<p id="pDitWordtRood">Deze tekst wordt rood.</p>
+<button id="button1" onclick=changeColor('')>Verander de kleuren</button>
+<script>
+    // voer script uit zodra de pagina helemaal geladen is
+    window.onload = (event)=>{
+        document.querySelector('#pDitWordtGroen').style.color = 'blue';
+        document.querySelector('#pDitWordtRood').style.color = 'blue';
+        document.body.style.backgroundColor = 'yellow';
+    };
+    function changeColor() {
+        var kleurP1 = document.querySelector('#pDitWordtGroen');
+        kleurP1.style.color = 'green';
+        var kleurP2 = document.querySelector('#pDitWordtRood');
+        kleurP2.style.color = 'red';
+    }
+</script>
+<script type="text/javascript" src="app.js"></script></body>
+</html>

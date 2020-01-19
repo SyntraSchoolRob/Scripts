@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a button only by using javasscript</title>
+<link href="app.css" rel="stylesheet"></head>
+<body>
+<!--Via JQuery document pureInjection kan dit eenvoudiger!-->
+<!--1. Voeg een button toe via javascript zonder JQuery-->
+<button onclick="addAButton()">Voeg een button toe</button>
+<!--2. Voeg een input veld met een button toe-->
+<button onclick="addInput()">Voeg een input input veld toe</button>
+<script>
+function addAButton() {
+    var btn = document.createElement('Button');
+    btn.innerHTML = "Een toegevoegde button";
+    document.body.appendChild(btn);
+}
+function addInput() {
+    var inputt = document.createElement("Input");
+    inputt.innerHTML = "Tekst"
+    document.body.appendChild(inputt);
+}
+</script>
+<script type="text/javascript" src="app.js"></script></body>
+</html>

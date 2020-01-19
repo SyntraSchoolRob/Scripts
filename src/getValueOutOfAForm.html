@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Value uit een FORM element halen</title>
+</head>
+<body>
+<form>
+    <div class="form-group">
+        <label for="email123">Email address </label>
+        <input type="email" class="form-control" id="email123" placeholder="name@example.com">
+    </div>
+</form>
+<button onclick="weergaveForm()">Try it out</button>
+<p id="injectieBox">Hier komt uw email</p>
+<script>
+    function weergaveForm() {
+        var y = document.getElementById("email123").value;
+        document.querySelector('#injectieBox').innerHTML = y;
+    }
+</script>
+</body>
+</html>

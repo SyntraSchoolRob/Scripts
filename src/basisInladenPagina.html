@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>De basis voor het inladen van een pagina/ ter informatie/ begin</title>
+</head>
+<body>
+<p>zie script</p>
+<script>
+    /*javascript laden, uitgebreide manier*/
+    window.addEventListener('load', (event)=>{
+        console.log('pagina volledig geladen 1.1 ');
+        document.write('pagina volledig geladen 1.2') + '<br>';
+        document.writeln('pagina volledig geladen 1.3');
+        document.writeln('pagina volledig geladen 1.4');
+    });
+    window.onLoad = (event)=>{
+        console.log('pagina volledig geladen 2.1');
+        document.write('pagina volledig geladen 2.2') + '<br>';
+        document.writeln('pagina volledig geladen 2.3');
+        document.writeln('pagina volledig geladen 2.4');
+    };
+    /*JQUERY*/
+    /*$ of jQuery*/
+    /*gebruik: wanneer de DOM geladen is**/
+    // JQUERY OF $ = WINDOW .DOCUMENT VAN JAVASCRIPT
+    // GEBRUIK WORDT GEBRUIKT WANNEER DE DOM GELADEN IS, DE DOM IS DE INHOUDSTABEL VAN UW BOEK EN GAAT VOORAF LADEN VOOR DE HTML
+    $(document).ready(function(){
+// code
+    });
+    /**wanneer webpagina volledig geladen is.
+     **/
+    //  WINDOW LOAD GAAT JS LADEN MET/ NA HTML CODE
+    $(window).load(function(){
+        //hier komt code
+    });
+</script>
+</body>
+</html>

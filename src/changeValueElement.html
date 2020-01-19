@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Veranderen van een stuk tekst via js</title>
+</head>
+<body>
+<p class="tekst">Deze tekst zal veranderen</p>
+<button onclick="veranderDeTekst()">Laat de tekst terug normaal worden</button>
+<script>
+    document.querySelector('.tekst').innerHTML = 'De tekst is gewijzgd.'; 
+    function veranderDeTekst() {
+        document.querySelector('.tekst').innerHTML= 'Deze tekst zal veranderen.';
+    }
+</script>
+</body>
+</html>

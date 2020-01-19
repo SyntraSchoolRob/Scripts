@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Value uit een element halen</title>
+<link href="app.css" rel="stylesheet"></head>
+<body>
+<p id="P1">Deze tekst zal worden weergegeven hieronder na het klikken op de button.</p>
+<button onclick="weergaveP()">Try it out</button>
+<p id="injectieBox"></p>
+<script>
+function weergaveP() {
+var tekstP1 = document.getElementById('P1').innerHTML;
+document.querySelector('#injectieBox').innerHTML = tekstP1;
+}
+</script>
+<script type="text/javascript" src="app.js"></script></body>
+</html>
