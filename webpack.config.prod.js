@@ -41,6 +41,12 @@ module.exports = function (env, argv) {
       }),
       new HtmlWebpackPlugin({
         title: 'Webpack starter project',
+        filename:'datums.html',
+        chunks: ['app'],
+        template: path.resolve('./src/datums.html')
+      }),
+      new HtmlWebpackPlugin({
+        title: 'Webpack starter project',
         filename:'sitemap.html',
         chunks: ['app'],
         template: path.resolve('./src/sitemap.html')
