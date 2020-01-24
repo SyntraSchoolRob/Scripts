@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Theorie datatypes in Javascript</title>
+</head>
+<body>
+<!-- De verschillende datatypes in Javascript -->
+<script>
+    var naam = 'Robbe'; /*string*/
+    var getal = 1; /*integer*/
+    var reeks1 = [1,2,3]; /*array van integers*/
+    var reeks2 = [true, false]; /*array van booleans*/
+    var reeks3 = ['1', 1, true]; /*mixed array van datatypes*/
+    var reeks4 = [[0,1,2,3],[4,5,6,7]]; /*array van arrays*/
+    /*reeks4.document.write([1][2])  --> zal nummer 6 weergeven */
+</script>
+<script>
+    /*Declaratie en weergave van een array*/
+    var cursisten = ['Robbe', 'Tom', 'Jan'];
+    document.write(cursisten + "<br>"); /*De volledige weergave van de array*/
+    document.write(cursisten[1] + "<br>"); /*Weergave naam Tom*/
+    console.log(cursisten[1]); /*Weergave in de console*/
+</script>
+<script>
+    /*Declaratie van object*/
+    /*Objecten = class = een associatieve array*/
+    var deelnemers = ['Lies', 'Tom', 'Jan'];
+    document.write(deelnemers);
+    for(teller=(-1); teller < deelnemers.length; teller++){
+        document.write(deelnemers[teller] + "<br>");
+    }
+</script>
+<script>
+    /*Toevoegen van een cursist aan het einde van de array*/
+    var nieuweNaam = prompt('Geef een naam in');
+    deelnemers.push(nieuweNaam);
+    document.write(deelnemers + "<br>");
+    /*Weergave van de index -- omgekeerd zoeken*/
+    var indexNummer = deelnemers.indexOf('Tom');
+    document.write(indexNummer);
+</script>
+<script>
+    /*Dynamisch object declareren*/
+    var cursist = {
+        voornaam: 'Jan',
+        geboorteJaar: 1980,
+        hobbies: ['voetballen', 'fietsen'],
+        gehuwd: true,
+        // Constructor
+    };
+    document.write(cursist.voornaam);
+    console.log(cursist);
+</script>
+<script>
+    /*Dynamisch object starten van een leeg object*/
+    var teams = {};
+    teams.basket = 'Oostende';
+    teams.voetbal = 'Brugge';
+    document.write(teams);
+</script>
+<script>
+    /*Dynamisch object starten van een al bestaand object -- Object overerving*/
+</script>
+</body>
+</html>

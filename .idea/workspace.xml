@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb81b07-f887-4f16-baf5-bb22b68dd5fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datums.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theorieDatatypes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getallen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/getallen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sitemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sitemap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
@@ -68,6 +65,7 @@
       <updated>1579445982524</updated>
       <workItem from="1579445983704" duration="114000" />
       <workItem from="1579680677806" duration="9999000" />
+      <workItem from="1579883955266" duration="208000" />
     </task>
     <servers />
   </component>
