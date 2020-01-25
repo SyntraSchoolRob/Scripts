@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb81b07-f887-4f16-baf5-bb22b68dd5fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/logboek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/getallen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/getallen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/optellenEnAftrekken.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/optellenEnAftrekken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sitemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sitemap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getallen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/getallen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optellenEnAftrekken.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/optellenEnAftrekken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sitemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sitemap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
-    </list>
+    <list default="true" id="ffb81b07-f887-4f16-baf5-bb22b68dd5fb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InleidingPhp" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,7 +60,7 @@
       <workItem from="1579445983704" duration="114000" />
       <workItem from="1579680677806" duration="9999000" />
       <workItem from="1579883955266" duration="5650000" />
-      <workItem from="1579939213113" duration="7810000" />
+      <workItem from="1579939213113" duration="8018000" />
     </task>
     <servers />
   </component>
@@ -80,6 +68,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1180" y="274" key="FileChooserDialogImpl" timestamp="1579947363475">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579947363475" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579939228013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
