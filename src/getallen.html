@@ -155,7 +155,7 @@ function koopEenBoek() {
     var d_toUTCString = d.toUTCString();
     var opsomming = document.createElement('div');
     opsomming.innerHTML = "<div class='mt-2 p-4 border'>" + "<i class='far fa-clock pr-2'></i>" + d_toUTCString +  "<br>" + "Een boek werd gekocht</div>";
-    document.getElementById('injectieAankopenBox').appendChild(opsomming)
+    document.getElementById('injectieAankopenBox').appendChild(opsomming);
 }
 function verkoopEenBoek() {
     var balans = parseInt(document.getElementById('tellerBalans').innerHTML)+100;

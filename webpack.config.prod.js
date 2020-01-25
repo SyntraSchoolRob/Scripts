@@ -71,6 +71,12 @@ module.exports = function (env, argv) {
       }),
       new HtmlWebpackPlugin({
         title: 'Webpack starter project',
+        filename:'logboek.html',
+        chunks: ['app'],
+        template: path.resolve('./src/logboek.html')
+      }),
+      new HtmlWebpackPlugin({
+        title: 'Webpack starter project',
         filename:'changeValueElement.html',
         chunks: ['app'],
         template: path.resolve('./src/changeValueElement.html')

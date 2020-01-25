@@ -46,6 +46,12 @@ module.exports = function(){
       }),
       new HtmlWebpackPlugin({
         title: 'Webpack starter project',
+        filename:'logboek.html',
+        chunks: ['app'],
+       template: path.resolve('./src/logboek.html')
+      }),
+      new HtmlWebpackPlugin({
+        title: 'Webpack starter project',
         filename:'theorieDatatypes.html',
         chunks: ['app'],
        template: path.resolve('./src/theorieDatatypes.html')
